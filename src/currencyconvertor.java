@@ -16,7 +16,7 @@ public class currencyconvertor
         {
             System.out.println("Enter the code in rupees: ");
             rupees = sc.nextFloat();
-            dollar = rupees/81;
+            dollar = rupees/75;
             System.out.println("Dollar: "+f.format(dollar));
             euro = rupees/84;
             System.out.println("Euro: "+f.format(euro));
